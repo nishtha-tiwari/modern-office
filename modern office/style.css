@@ -1,0 +1,1095 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lora:wght@700&family=Montserrat+Alternates:wght@100;800&family=Pacifico&family=Permanent+Marker&family=Playball&family=Rubik+Microbe&family=Teko:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    html,body{
+        width: 100%;
+        height: 100%;
+       /* font-family: 'Aboreto', cursive;*/
+font-family: 'Cormorant Infant', serif;
+/*font-family: 'Lora', serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Playball', cursive;
+font-family: 'Rubik Microbe', cursive;
+font-family: 'Teko', sans-serif;*/
+        
+    }
+    .monu{
+        width: 100%;
+        height: 8vh;
+        padding: 5px 2px;
+        background-color: rgb(178, 187, 187);
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    
+    }
+    .monu i{
+        color: rgb(38, 36, 36);
+    }
+    nav{
+        width: 100%;
+        height: 105vh;
+        background-image: url(https://www.vanroey.be/wp-content/uploads/Microsoft-Office-365-PowerPoint-Home-office-telewerk.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .right{
+        width: 50%;
+        height: 60vh;
+        margin-left: 48vmax;
+        margin-top: 6vmax;
+        background-color: rgba(214, 229, 46, 0.25);
+        padding: 5vmax 5vmax;
+        text-align: center;
+        align-items: center;
+        font-size: 15px;
+    }
+    .right h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .right input{
+        margin-top: 25px;
+        padding: 1vmax 1vmax;
+        margin-right: vmax;
+        flex: 1;
+        border: none;
+    }
+    .right  button{
+        margin-top: 30px;
+        padding: 1.2vmax 3vmax;
+        border: none;
+        color: white;
+        font-size: 10px;
+        background-color: rgb(31, 221, 79);
+        cursor: pointer;
+    }
+    header{
+        width: 100%;
+        height: 90vh;
+
+    }
+    
+    .moni{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+        border-radius: 15px;
+        justify-content: space-around;
+    }
+    .fuli{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        text-align: center;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    i{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    .du{
+        width: 20%;
+        height: 30vh;
+        padding: 1vmax 2vmax;
+        background-color:black;
+        color: white;
+        border-radius: 15px;
+        margin-bottom: 40px;
+    }
+    .du i {
+        background-color: rgb(31, 221, 79);
+        border-radius: 50%;
+        padding: 3px 8px;
+        color: white;
+    }
+        .munu{
+    width: 20%;
+    height: 30vh;
+    padding: 1vmax 2vmax;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-bottom: 40px;
+        }
+        .munu i {
+            padding: 3px 8px;
+            background-color: rgba(15, 33, 15, 0.901);
+            border-radius: 50%;
+            color: white;
+        }
+    .koli{
+        width: 20%;
+        height: 30vh;
+        padding: 1vmax 2vmax;
+        background-color: rgb(31, 221, 79);
+        margin-bottom: 40px;
+        border-radius: 15px;
+    
+    }
+    .koli i {
+        background-color:black;
+        border-radius:50%;
+        padding: 3px 8px;
+        color: white;
+    }
+    .op{
+    width: 20%;
+    height: 30vh;
+    padding: 1vmax 2vmax;
+    background-color: rgb(31, 221, 79);
+    border-radius: 15px;
+
+    
+    }
+    .op i {
+        background-color:black;
+        border-radius: 50%;
+        padding: 3px 8px;
+        color: white;
+    }
+    .murti{
+        width: 21%;
+        height: 31vh;
+        padding: 1vmax 2vmax;
+        background-color: whitesmoke;
+        border-radius: 15px;
+
+    }
+    .murti i {
+        background-color: black;
+        border-radius: 50%;
+        padding: 3px 8px;
+        color: white;
+    }
+    .nal{
+        height: 30vh;
+        width: 20%;
+        padding: 1vmax 2vmax;
+        background-color: rgb(3, 3, 31);
+        border-radius: 15px;
+        color: white;
+    
+    }
+    .nal i {
+        background-color:rgb(31, 221, 79);
+        border-radius: 50%;
+        padding:3px 8px;
+        color: white;
+    }
+    .mosa{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        background-color: rgba(138, 70, 215, 0.041);
+    }
+    .pool{
+         margin-left: 50px;
+         padding: 2vmax 2vmax;
+    }
+    .pool h1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .pool i{
+        background-color: rgb(31, 221, 79);
+        margin-right: 20px;
+        margin-bottom: 20px;
+        color: black;
+    }
+    .pool h4{
+        margin-top: 20px;
+    }
+    .pool p{
+     margin-top: 20px;
+    }
+    .mona img{
+        margin-top: 50px;
+        margin-left: 50px;
+     border-radius: 50%;
+    }
+    .niya h1{
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .dhoom{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .boom{
+     width: 20%;
+     height: 30vh;
+     align-items: center;
+     text-align: center;
+     background-color: rgb(31, 221, 79);
+     padding: 1vmax 2vmax;
+    }
+    .boom h2{
+        font-size: 35px;
+        color: red;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .zoom{
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(249, 245, 245, 0.793);
+    }
+    .zoom h2{
+    font-size: 35px;
+    color: rgb(203, 237, 31);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .moon{
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.278);
+    }
+    .moon h2{
+    font-size: 35px;
+    color: rgb(76, 25, 206);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .rio{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        background-color: rgba(221, 222, 216, 0.758);
+        
+    }
+    .room{
+        width: 60%;
+        height: 80%;
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+    .room h1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .room  h3 h4, i{
+      color: yellow;
+    }
+    .room h5 i{
+        color: rgb(31, 221, 79);
+    }
+    .push img{
+        width: 40%;
+        border-radius: 50%;
+        margin-left: 20vmax;
+        margin-top: 5px;
+    }
+    .kili{
+        width: 100%;
+        height: 50vh;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(31, 221, 79);
+        color: white;
+        margin-top: 20px;
+    }
+    .kili h3{
+        font-size: 12px;
+       padding: 1vmax 2vmax;
+    }
+    .kili h1{
+    padding: 1vmax 2vmax;
+    }
+    .kili p{
+margin-top: 10px;
+    }
+    .kili button{
+padding: 1vmax 2vmax;
+margin-top: 20px;
+background-color: black;
+color: white;
+    }
+    .page{
+        width: 100%;
+        height: 100%;
+    }
+.nishi{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.post{
+display: flex;
+}
+.tiwari{
+display: flex;
+}
+.poha{
+width: 100%;
+height: 95vh;
+align-items: center;
+text-align: center;
+background-color: azure;
+margin-top: 20px;
+}
+.mosam img{
+    width: 11%;
+    height: 25vh;
+    object-fit: cover;
+border-radius: 50%;
+margin-top: 20px;
+}
+
+
+.mosam p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 1vmax 1vmax;
+
+}
+.rose{
+    width: 100%;
+    height: 100vh;
+    
+}
+.piya{
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.mohak{
+   width: 45%;
+   height: 40vh;
+}
+.ulta{
+    width: 60%;
+    width: 40vh;
+    margin-right: 20px;
+    
+}
+.neha{
+    width: 30%;
+    height: 40vmax;
+    margin-left: 100px;
+}
+ .meena{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    
+ }
+ .most{
+width: 55%;
+height: 50vh;
+align-items: center;
+text-align: center;
+margin-top: 20px;
+background-color: rgba(226, 224, 221, 0.636);
+ }
+ .most h1{
+    padding: 3vmax 2vmax;
+ }
+ .most button{
+    padding: 1vmax 2vmax;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+ }
+ .alam{
+    width: 20%;
+    height: 50vh;
+    background-color: rgb(31, 221, 79);
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 1vmax 2vmax;
+ }
+ .alam h1{
+    padding: 1vmax 2vmax;
+ }
+ .u{
+    width: 20%;
+    height: 50vh;
+    background-color: black;
+    margin-top: 20px;
+    color: white;
+    margin-left:20px;
+    align-items: center;
+    text-align: center;
+    padding: 1vmax 2vmax;
+ }
+ .u h1{
+    padding: 1vmax 2vmax;
+ }
+
+.reena{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.rimi{
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(31, 221, 79);
+    
+}
+.rimi h1{
+    padding: 1vmax 2vmax;
+}
+.tini{
+    width: 100%;
+    height: 50vh;
+    margin-top: 230px;
+    background-color: rgba(232, 228, 228, 0.488);
+    padding: 1vmax 2vmax;
+}
+.tini button{
+    background-color: yellow;
+    border: none;
+    font-weight: bold;
+padding: 1.5vmax 2.5vmax;
+}
+.tini h1{
+    padding: 1vmax 2vmax;
+}
+.tini h3{
+    padding: 1vmax 2vmax;
+}
+.tini p{
+    padding: 1vmax 2vmax;
+}
+.tini h6{
+    padding: 1vmax 2vmax;
+}
+@media screen and (max-width: 600px)
+{
+    html,body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        font-family: 'Aboreto', cursive;
+/*font-family: 'Cormorant Infant', serif;
+font-family: 'Lora', serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Playball', cursive;
+font-family: 'Rubik Microbe', cursive;
+font-family: 'Teko', sans-serif;*/
+        
+    }
+    .monu{
+        width: 100%;
+        height: 8vh;
+        padding: 5px 2px;
+        background-color: rgb(178, 187, 187);
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+    
+    }
+    .monu i{
+        color: black;
+    }
+    nav{
+        width: 100%;
+        height: 105vh;
+        background-image: url(https://www.vanroey.be/wp-content/uploads/Microsoft-Office-365-PowerPoint-Home-office-telewerk.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .right{
+        width: 70%;
+        height: 65vh;
+        margin-left:7vmax;
+        margin-top: 15vmax;
+        background-color: rgba(214, 229, 46, 0.25);
+        padding: 5vmax 5vmax;
+        text-align: center;
+        align-items: center;
+        font-size: 15px;
+    }
+    .right h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .right input{
+        margin-top: 25px;
+        padding: 1vmax 1vmax;
+        margin-right: vmax;
+        flex: 1;
+        border: none;
+    }
+    .right  button{
+        margin-top: 30px;
+        padding: 1.2vmax 3vmax;
+        border: none;
+        color: white;
+        font-size: 10px;
+        background-color: rgb(31, 221, 79);
+        cursor: pointer;
+    }
+    header{
+        width: 100%;
+        height: 110%;
+    }
+    .kalu{
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    
+    .moni{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border-radius: 15px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .fuli{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        
+        
+    }
+    i{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+    .du{
+        width: 70%;
+        height: 30vh;
+        padding: 2vmax 3vmax;
+        background-color:black;
+        color: white;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    .du i {
+        background-color: rgb(31, 221, 79);
+        border-radius: 50%;
+        padding: 3px 8px;
+        color: white;
+    }
+        .munu{
+    width: 70%;
+    height: 40vh;
+    padding: 2vmax 3vmax;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-bottom: 10px;
+        }
+        .munu i {
+            padding: 3px 8px;
+            background-color: rgba(15, 33, 15, 0.901);
+            border-radius: 50%;
+            color: white;
+        }
+    .koli{
+        width: 70%;
+        height: 40vh;
+        padding: 2vmax 3vmax;
+        background-color: rgb(31, 221, 79);
+        margin-bottom: 50px;
+        border-radius: 15px;
+    
+    }
+    .koli i {
+        background-color:black;
+        border-radius:50%;
+        padding: 3px 8px;
+        color: white;
+    }
+    .op{
+    width: 70%;
+    height: 40vh;
+    padding: 2vmax 3vmax;
+    background-color: rgb(31, 221, 79);
+    border-radius: 15px;
+    margin-top: 220px;
+    margin-bottom: 10px;
+
+    
+    }
+    .op i {
+        background-color:black;
+        border-radius: 50%;
+        padding: 3px 8px;
+        color: white;
+    }
+    .murti{
+        width: 71%;
+        height: 51%;
+        padding: 2vmax 3vmax;
+        background-color: whitesmoke;
+        border-radius: 15px;
+    margin-bottom: 10px;
+    }
+    .murti i {
+        background-color: black;
+        border-radius: 50%;
+        padding: 3px 8px;
+        color: white;
+    }
+    .nal{
+        height: 50%;
+        width: 70%;
+        padding: 2vmax 3vmax;
+        background-color: rgb(3, 3, 31);
+        border-radius: 15px;
+        color: white;
+        margin-bottom: 10px;
+        
+    
+    }
+    .nal i {
+        background-color:rgb(31, 221, 79);
+        border-radius: 50%;
+        padding:3px 8px;
+        color: white;
+    }
+    .mosa{
+        width: 100%;
+        height: 150vh;
+        display: flex;
+        background-color: rgb(164, 155, 174);
+    }
+    .pool{
+         margin-left: 10px;
+         padding: 1vmax 1vmax;
+    }
+    .pool h1{
+        width: 100%;
+        margin-left: 60px;
+        margin-top: 380px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .pool i{
+        background-color: rgb(31, 221, 79);
+        margin-right: 20px;
+        margin-bottom: 20px;
+        
+    }
+    .pool h4 i{
+        color: black;
+    }
+    .pool h4{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .pool p{
+        width: 120%;
+        height: 60vh;
+    align-items: center;
+    text-align: center;
+    padding: 5vmax 2vmax;
+    margin-left: 30px;
+
+    }
+    .mona img{
+        width: 200%;
+        margin-top: 10px;
+        margin-left: -180px;
+     border-radius: 50%;
+     object-fit: cover;
+    }
+    .niya{
+        width: 100%;
+        height: 170%;
+        
+    }
+    .niya h1{
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .dhoom{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+    }
+    .boom{
+     width: 52%;
+     height: 28vh;
+     align-items: center;
+     text-align: center;
+     background-color: rgb(31, 221, 79);
+     margin-bottom: 20px;
+    }
+    .boom h2{
+        font-size: 35px;
+        color: red;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .zoom{
+    width: 52%;
+    height: 28vh;
+    padding: 2vmax 2vmax;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(249, 245, 245, 0.793);
+    margin-bottom: 20px;
+    }
+    .zoom h2{
+    font-size: 35px;
+    color: rgb(203, 237, 31);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .moon{
+    width: 52%;
+    height: 28vh;
+    padding: 2vmax 2vmax;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.278);
+    margin-bottom: 0px;
+    }
+    .moon h2{
+    font-size: 35px;
+    color: rgb(76, 25, 206);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .rio{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        background-color:rgba(128, 128, 128, 0.278);
+    
+        
+    }
+    .push{
+        width: 100%;
+        height: 40vh;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: -290px;
+        margin-right: 90px;
+    }
+    .push img{
+        width: 100%;
+        height: 30vh;
+        margin-left: 5vmax;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        
+    }
+    .room{
+        width: 100%;
+        height: 90vh;
+        align-items: center;
+        text-align: center;  
+    }
+    .room h1{
+        width: 100%;
+        margin-top: 180px;
+        margin-bottom: 20px;
+        font-size:10px;
+        margin-left: 10px;
+        color: red;  
+    }
+    .room p{
+        width: 100%;
+        height: 60vh;
+       margin-left: 10px;
+
+    
+    }
+    .room  h3 h4, i{
+      color: yellow;
+      
+    }
+    .room h5 i{
+        color: rgb(31, 221, 79);
+        
+    }
+    .room h4{
+        margin-top: -190px;
+        font-size: 10px;
+    }
+    .room h3{
+        margin-top: -1px;
+        font-size: 10px;
+    }
+    .kili{
+        width:100%;
+        height: 60vh;
+        align-items: center;
+        text-align: center;
+        background-color: rgb(31, 221, 79);
+        color: white;
+        margin-top: 0px;
+    }
+    .kili h3{
+        font-size: 12px;
+        padding: 1vmax 2vmax;
+    }
+    .kili h1{
+        padding: 1vmax 2vmax;
+        }
+        .kili p{
+    margin-top: 10px;
+        }
+        .kili button{
+    padding: 1vmax 1vmax;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+        }
+        .page{
+            width: 100%;
+            height: 200vh;
+            
+        }
+        .nishi{
+            margin-top: 20px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+        }
+        .post{
+            width: 250%;
+            height: 50vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 70px;
+        }
+        .tiwari{
+            width: 250%;
+            height: 50vh;
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+        margin-top: 290px;
+        }
+        .poha{
+        width: 100%;
+        height: 80vh;
+        align-items: center;
+        text-align: center;
+        background-color: azure;
+        margin-top: 20px;
+        
+        }
+        .mosam img{
+            width: 30%;
+            height: 17vh;
+        border-radius: 50%;
+        margin-top: 20px;
+        }
+    
+        .mosam p{
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 1vmax 4vmax;
+        
+        }
+        .mana{
+            width: 90%;
+            margin-top: 20px;
+            margin-right: 2vmax;
+        }
+         .ulta{
+            width: 30%;
+            height: 30vh;
+            display: contents;
+            justify-content: space-around;
+            margin-right: 2vmax;
+            
+         } 
+         .rose{
+            width: 100%;
+            height: 208vh;
+            flex-direction: column;
+            
+        }
+        .piya{
+            width: 90%;
+            height: 40vh;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            
+        }
+        .mohak{
+           width: 85%;
+           height: 50vh;
+           margin-left: 15px;
+           margin-top: -210px;
+        }
+        .ulta img{
+            width: 90%;
+            height: 50vh;
+            margin-left: 30px;
+            margin-top: 500px;
+            
+        }
+        .neha{
+            width: 103%;
+            height: 550vh;
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+         .meena{
+            width: 100%;
+            height: 40vh;
+            display: flex;
+            flex-direction: column;
+            
+         }
+         .most{
+        width: 95%;
+        height: 50vh;
+        align-items: center;
+        text-align: center;
+        margin-top: 500px;
+        padding: 2vmax 2vmax;
+        margin-left: 10px;
+        background-color: rgba(226, 224, 221, 0.636);
+         }
+         .most h1{
+            padding: 3vmax 2vmax;
+         }
+         .most button{
+            padding: 1vmax 2vmax;
+            background-color: black;
+            color: white;
+            margin-top: 20px;
+         }
+         .alam{
+            width: 80%;
+            height: 50vh;
+            background-color: rgb(31, 221, 79);
+            margin-top: 10px;
+            margin-left: 35px;
+            align-items: center;
+            text-align: center;
+            padding: 2vmax 2vmax;
+         }
+         .alam h1{
+            padding: 1vmax 2vmax;
+         }
+         .u{
+            width: 80%;
+            height: 50vh;
+            background-color: black;
+            margin-top: 10px;
+            color: white;
+            margin-left:35px;
+            align-items: center;
+            text-align: center;
+            padding: 2vmax 2vmax;
+         }
+         .u h1{
+            padding: 1vmax 2vmax;
+         }
+        
+        .reena{
+            width: 100%;
+            height: 100vh;
+            background-color: aliceblue;
+        }
+        .rimi{
+            width: 100%;
+            height: 20vh;
+            align-items: center;
+            text-align: center;
+            background-color: rgba(31, 221, 78, 0.301);
+            
+        }
+        .rimi h1{
+            padding: 1vmax 2vmax;
+        }
+        .tini{
+            width: 100%;
+            height: 50vh;
+            margin-top: 230px;
+            background-color: rgba(232, 228, 228, 0.488);
+            padding: 1vmax 2vmax;
+        }
+        .tini button{
+            background-color: yellow;
+            border: none;
+            font-weight: bold;
+        padding: 1.5vmax 2.5vmax;
+        }
+        .tini h1{
+            padding: 1vmax 2vmax;
+        }
+        .tini h3{
+            padding: 1vmax 2vmax;
+        }
+        .tini p{
+            padding: 1vmax 2vmax;
+        }
+        .tini h6{
+            padding: 1vmax 2vmax;
+        }
+        
+
+
+}
+
+
+
+
+
+
+
+
+    
+    
+    
+     
+
+
+
+
+
